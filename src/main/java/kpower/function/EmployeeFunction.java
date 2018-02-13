@@ -12,6 +12,7 @@ public class EmployeeFunction {
             }
         };
 
+        // Using apply() method in Function
         System.out.println(empExperienceFunction.apply(1));
         System.out.println(empExperienceFunction.apply(5));
     }
